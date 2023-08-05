@@ -23,7 +23,21 @@
   <link rel="stylesheet" type="text/css" href="<?= base_url('front') ?>/css/owl.theme.css" media="screen">
   <link rel="stylesheet" type="text/css" href="<?= base_url('front') ?>/css/ticker-style.css" />
   <link rel="stylesheet" type="text/css" href="<?= base_url('front') ?>/css/style.css" media="screen">
-
+  <style>
+    .navbar-nav>.menu_non>a:after {
+      content: '';
+      position: absolute;
+      font-family: 'FontAwesome';
+      font-size: 13px;
+      color: #666666;
+      top: 21px;
+      right: 13px;
+      transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+    }
+  </style>
 </head>
 
 <body class="boxed">

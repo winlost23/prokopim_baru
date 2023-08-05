@@ -43,7 +43,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= base_url('home') ?>"><img src="<?= base_url('img/' . $pengaturan->pengaturan_logo_header) ?>" alt="" width="20%"></a>
+                    <a class="navbar-brand" href="<?= base_url('home') ?>"><img src="<?= base_url('img/' . $pengaturan->pengaturan_logo_header) ?>" alt="" width="30%"></a>
                 </div>
 
             </div>
@@ -57,7 +57,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-left">
 
-                        <li><a class="home" href="<?= base_url('home/') ?>">Home</a></li>
+                        <li class="menu_non"><a class="home" href="<?= base_url('home/') ?>">Home</a></li>
 
                         <li class="drop"><a class="world" href="#">Profil</a>
                             <ul class="dropdown world-dropdown">
@@ -113,7 +113,7 @@
                             </ul>
                         </li>
 
-                        <li><a class="sport" href="<?= base_url('agenda') ?>">Agenda</a></li>
+                        <li class="menu_non"><a class="sport" href="<?= base_url('agenda') ?>">Agenda</a></li>
 
                         <li class="drop"><a class="food" href="#">Download</a>
                             <ul class="dropdown food-dropdown">
@@ -127,9 +127,9 @@
                             </ul>
                         </li>
 
-                        <li><a class="features" href="<?= base_url('penghargaan') ?>">Penghargaan</a></li>
+                        <li class="menu_non"><a class="features" href="<?= base_url('penghargaan') ?>">Penghargaan</a></li>
 
-                        <li><a class="travel" href="<?= base_url('kontak') ?>">Kontak</a></li>
+                        <li class="menu_non"><a class="travel" href="<?= base_url('kontak') ?>">Kontak</a></li>
 
                     </ul>
                     <form class="navbar-form navbar-right" role="search">

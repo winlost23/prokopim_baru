@@ -40,7 +40,7 @@ class Download extends BaseController
 
     public function index($slug)
     {
-        $data['title'] = '| Pidato';
+        $data['title'] = '| Download';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();
@@ -103,6 +103,55 @@ class Download extends BaseController
         // $data['online'] = $this->UseronlineModel->distinct('usersonline_ip')->where('usersonline_file', $PHPSELF)->selectCount('usersonline_ip')->first();
 
         return view($this->halaman . 'download', $data);
+    }
+
+    public function cari()
+    {
+        $data['title'] = '| Cari Download';
+        $data['menu'] = 'kedua';
+        $data['pengaturan'] = $this->pengaturanModel
+            ->first();
+
+        //Menu
+        $data['profil'] = $this->profilModel
+            ->orderby('profil_id', 'asc')
+            ->findAll();
+        $data['sekretariat'] = $this->sekretariatModel
+            ->orderby('sekretariat_id', 'asc')
+            ->findAll();
+        $data['berita'] = $this->beritaModel
+            ->orderby('berita_id', 'asc')
+            ->findAll();
+        $data['kategori'] = $this->kategoriModel
+            ->orderby('kategori_id', 'asc')
+            ->findAll();
+        $data['download'] = $this->downloadModel
+            ->orderby('download_id', 'asc')
+            ->findAll();
+
+        //side
+        $data['berita_baru'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_id', 'desc')
+            ->limit(5)->findAll();
+        $data['agenda_baru'] = $this->agendaModel
+            ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
+
+        $data['berita_populer'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_dibaca', 'desc')
+            ->limit(5)->findAll();
+
+        //Content
+        $download_detail_judul = $this->request->getPost('download_detail_judul');
+
+        $query = $this->downloadDetailModel;
+        $query->Like('download_detail_judul', $download_detail_judul);
+        $query->orderby('download_detail_id', 'desc');
+        $data['konten'] = $query->findAll();
+
+        return view($this->halaman . 'downloadcari', $data);
     }
 
     public function get_download($id)

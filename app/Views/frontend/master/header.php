@@ -132,8 +132,8 @@
                         <li class="menu_non"><a class="travel" href="<?= base_url('kontak') ?>">Kontak</a></li>
 
                     </ul>
-                    <form class="navbar-form navbar-right" role="search">
-                        <input type="text" id="search" name="search" placeholder="Search here">
+                    <form class="navbar-form navbar-right" role="search" method="post" action="<?= base_url('home/cari') ?>">
+                        <input type="text" id="search" name="berita_detail_judul" placeholder="Search here">
                         <button type="submit" id="search-submit"><i class="fa fa-search"></i></button>
                     </form>
                 </div>

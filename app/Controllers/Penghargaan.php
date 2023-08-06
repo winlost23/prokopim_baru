@@ -151,4 +151,65 @@ class Penghargaan extends BaseController
 
         return view($this->halaman . 'penghargaandetail', $data);
     }
+
+    public function cari()
+    {
+        $data['title'] = '| Penghargaan';
+        $data['menu'] = 'kedua';
+        $data['pengaturan'] = $this->pengaturanModel
+            ->first();
+
+        //Menu
+        $data['profil'] = $this->profilModel
+            ->orderby('profil_id', 'asc')
+            ->findAll();
+        $data['sekretariat'] = $this->sekretariatModel
+            ->orderby('sekretariat_id', 'asc')
+            ->findAll();
+        $data['berita'] = $this->beritaModel
+            ->orderby('berita_id', 'asc')
+            ->findAll();
+        $data['kategori'] = $this->kategoriModel
+            ->orderby('kategori_id', 'asc')
+            ->findAll();
+        $data['download'] = $this->downloadModel
+            ->orderby('download_id', 'asc')
+            ->findAll();
+
+        //side
+        $data['berita_baru'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_id', 'desc')
+            ->limit(5)->findAll();
+        $data['agenda_baru'] = $this->agendaModel
+            ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
+
+        $data['berita_populer'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_dibaca', 'desc')
+            ->limit(5)->findAll();
+
+        //Content
+        $penghargaan_judul = $this->request->getPost('penghargaan_judul');
+        $created_at = $this->request->getPost('pidato_detail_tempat');
+        $kategori_id = $this->request->getPost('kategori_id');
+
+        $query = $this->penghargaanModel
+            ->join('kategori', 'kategori.kategori_id = penghargaan.kategori_id');
+        if ($penghargaan_judul) {
+            $query->Like('penghargaan.penghargaan_judul', $penghargaan_judul);
+        }
+        if ($created_at) {
+            $query->Like('penghargaan.created_at', $created_at);
+        }
+        if ($kategori_id) {
+            $query->Like('penghargaan.kategori_id', $kategori_id);
+        }
+        $query->orderby('penghargaan.penghargaan_id', 'desc');
+
+        $data['konten'] = $query->findAll();
+
+        return view($this->halaman . 'penghargaancari', $data);
+    }
 }

@@ -150,6 +150,70 @@ class Pidato extends BaseController
         return view($this->halaman . 'pidatodetail', $data);
     }
 
+    public function cari()
+    {
+        $data['title'] = '| Cari Pidato';
+        $data['menu'] = 'kedua';
+        $data['pengaturan'] = $this->pengaturanModel
+            ->first();
+
+        //Menu
+        $data['profil'] = $this->profilModel
+            ->orderby('profil_id', 'asc')
+            ->findAll();
+        $data['sekretariat'] = $this->sekretariatModel
+            ->orderby('sekretariat_id', 'asc')
+            ->findAll();
+        $data['berita'] = $this->beritaModel
+            ->orderby('berita_id', 'asc')
+            ->findAll();
+        $data['kategori'] = $this->kategoriModel
+            ->orderby('kategori_id', 'asc')
+            ->findAll();
+        $data['download'] = $this->downloadModel
+            ->orderby('download_id', 'asc')
+            ->findAll();
+
+        //side
+        $data['berita_baru'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_id', 'desc')
+            ->limit(5)->findAll();
+        $data['agenda_baru'] = $this->agendaModel
+            ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
+
+        $data['berita_populer'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_dibaca', 'desc')
+            ->limit(5)->findAll();
+
+        $pidato_detail_judul = $this->request->getPost('pidato_detail_judul');
+        $pidato_detail_tempat = $this->request->getPost('pidato_detail_tempat');
+        $kategori_id = $this->request->getPost('kategori_id');
+
+        $query = $this->pidatoDetailModel
+            ->join('kategori', 'kategori.kategori_id = pidato_detail.kategori_id');
+        if ($pidato_detail_judul) {
+            $query->Like('pidato_detail.pidato_detail_judul', $pidato_detail_judul);
+        }
+        if ($pidato_detail_tempat) {
+            $query->Like('pidato_detail.pidato_detail_tempat', $pidato_detail_tempat);
+        }
+        if ($kategori_id) {
+            $query->Like('pidato_detail.kategori_id', $kategori_id);
+        }
+        $query->orderby('pidato_detail.pidato_detail_id', 'desc');
+
+        $data['konten'] = $query->findAll();
+
+        // $data['jml_pantun'] = $this->pidatoPantunModel
+        //     ->where('pidato_detail_id', $data['konten']->pidato_detail_id)
+        //     ->countAllResults();
+
+        return view($this->halaman . 'pidatocari', $data);
+    }
+
     public function get_download($id)
     {
         $download = $this->pidatoDetailModel->find($id);

@@ -40,22 +40,30 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php
-                                foreach ($konten as $d) : ?>
-                                    <tr>
-                                        <td><?= $nomor++ ?></td>
-                                        <td><?= $d->download_detail_judul ?></td>
-                                        <td><?= $d->download_detail_ukuran ?> Kb</td>
-                                        <td><?= $d->created_at ?></td>
-                                        <td>
-                                            <a href="<?= base_url('download/get_download/' . $d->download_detail_id) ?>" class="btn btn-danger btn-sm"><i class="fa fa-download" aria-hidden="true"></i></a>
+                                <?php if (!empty($konten)) : ?>
+                                    <?php
+                                    $nomor = 1;
+                                    foreach ($konten as $d) : ?>
+                                        <tr>
+                                            <td><?= $nomor++ ?></td>
+                                            <td><?= $d->download_detail_judul ?></td>
+                                            <td><?= $d->download_detail_ukuran ?> Kb</td>
+                                            <td><?= $d->created_at ?></td>
+                                            <td>
+                                                <a href="<?= base_url('download/get_download/' . $d->download_detail_id) ?>" class="btn btn-danger btn-sm"><i class="fa fa-download" aria-hidden="true"></i></a>
 
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                <?php else : ?>
+                                    <tr>
+                                        <td colspan="5" align="center">
+                                            <p>Tidak ada hasil.</p>
                                         </td>
                                     </tr>
-                                <?php endforeach; ?>
+                                <?php endif; ?>
                             </tbody>
                         </table>
-                        <?= $pager->links('hal', 'paging') ?>
                     </div>
                     <!-- End forum box -->
 

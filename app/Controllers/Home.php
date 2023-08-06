@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\AgendaModel;
 use App\Models\BeritaDetailModel;
 use App\Models\BeritaFotoModel;
 use App\Models\BeritaModel;
@@ -40,6 +41,7 @@ class Home extends BaseController
 		$this->videoKegiatanModel = new VideoKegiatanModel();
 		$this->penghargaanModel = new PenghargaanModel();
 		$this->galeriKegiatanModel = new GaleriKegiatanModel();
+		$this->agendaModel = new AgendaModel();
 	}
 
 	public function index()
@@ -144,6 +146,59 @@ class Home extends BaseController
 		$data['online'] = $this->UseronlineModel->distinct('usersonline_ip')->where('usersonline_file', $PHPSELF)->selectCount('usersonline_ip')->first();
 
 		return view($this->halaman . 'index', $data);
+	}
+
+	public function cari()
+	{
+		$data['title'] = '| Berita';
+		$data['menu'] = 'kedua';
+		$data['pengaturan'] = $this->pengaturanModel
+			->first();
+
+		//Menu
+		$data['profil'] = $this->profilModel
+			->orderby('profil_id', 'asc')
+			->findAll();
+		$data['sekretariat'] = $this->sekretariatModel
+			->orderby('sekretariat_id', 'asc')
+			->findAll();
+		$data['berita'] = $this->beritaModel
+			->orderby('berita_id', 'asc')
+			->findAll();
+		$data['kategori'] = $this->kategoriModel
+			->orderby('kategori_id', 'asc')
+			->findAll();
+		$data['download'] = $this->downloadModel
+			->orderby('download_id', 'asc')
+			->findAll();
+
+		//side
+		$data['berita_baru'] = $this->beritadetailModel
+			->join('berita', 'berita.berita_id = berita_detail.berita_id')
+			->orderby('berita_detail.berita_detail_id', 'desc')
+			->limit(5)->findAll();
+		$data['agenda_baru'] = $this->agendaModel
+			->orderby('agenda_id', 'desc')
+			->limit(5)->findAll();
+
+		$data['berita_populer'] = $this->beritadetailModel
+			->join('berita', 'berita.berita_id = berita_detail.berita_id')
+			->orderby('berita_detail.berita_detail_dibaca', 'desc')
+			->limit(5)->findAll();
+
+		//Content
+		$berita_detail_judul = $this->request->getPost('berita_detail_judul');
+
+		$query = $this->beritadetailModel;
+		$query->join('berita', 'berita.berita_id = berita_detail.berita_id');
+		if ($berita_detail_judul) {
+			$query->Like('berita_detail_judul', $berita_detail_judul);
+		}
+		$query->orderby('berita_detail_id', 'desc');
+
+		$data['konten'] = $query->findAll();
+
+		return view($this->halaman . 'cari', $data);
 	}
 
 	function unauthorized()

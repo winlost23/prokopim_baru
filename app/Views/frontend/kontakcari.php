@@ -59,44 +59,51 @@
 
                                 use App\Models\KontakModel;
 
-                                $this->kontakModel = new KontakModel();
-                                foreach ($konten as $d) :
-                                    $balas = $this->kontakModel
-                                        ->where('kontak_id_parent', $d->kontak_id)
-                                        ->first(); ?>
-                                    <li>
-                                        <div class="comment-box">
-                                            <img alt="" src="<?= base_url('img/img_avatar3.png') ?>">
-                                            <div class="comment-content">
-                                                <h4><?= $d->kontak_nama ?></h4>
-                                                <h5><?= $d->kontak_pekerjaan ?></h5>
-                                                <span><i class="fa fa-clock-o"></i><?= $d->created_at ?></span>
-                                                <?= $d->kontak_komentar ?>
+                                if (!empty($konten)) : ?>
+                                    <?php
+
+
+
+                                    $this->kontakModel = new KontakModel();
+                                    foreach ($konten as $d) :
+                                        $balas = $this->kontakModel
+                                            ->where('kontak_id_parent', $d->kontak_id)
+                                            ->first(); ?>
+                                        <li>
+                                            <div class="comment-box">
+                                                <img alt="" src="<?= base_url('img/img_avatar3.png') ?>">
+                                                <div class="comment-content">
+                                                    <h4><?= $d->kontak_nama ?></h4>
+                                                    <h5><?= $d->kontak_pekerjaan ?></h5>
+                                                    <span><i class="fa fa-clock-o"></i><?= $d->created_at ?></span>
+                                                    <?= $d->kontak_komentar ?>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <?php if ($balas) { ?>
-                                            <ul class="depth">
-                                                <li>
-                                                    <div class="comment-box">
-                                                        <img alt="" src="<?= base_url('img/welcome.png') ?>">
-                                                        <div class="comment-content">
-                                                            <h4>Admin</h4>
-                                                            <span><i class="fa fa-clock-o"></i><?= $balas->created_at ?></span>
-                                                            <?= $balas->kontak_komentar ?>
+                                            <?php if ($balas) { ?>
+                                                <ul class="depth">
+                                                    <li>
+                                                        <div class="comment-box">
+                                                            <img alt="" src="<?= base_url('img/welcome.png') ?>">
+                                                            <div class="comment-content">
+                                                                <h4>Admin</h4>
+                                                                <span><i class="fa fa-clock-o"></i><?= $balas->created_at ?></span>
+                                                                <?= $balas->kontak_komentar ?>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        <?php } ?>
-                                    </li>
-                                <?php endforeach; ?>
+                                                    </li>
+                                                </ul>
+                                            <?php } ?>
+                                        </li>
+                                    <?php endforeach; ?>
+                                <?php else : ?>
+                                    <div class="col-md-12" style="text-align: center;">
+                                        <p>Tidak ada hasil.</p>
+                                    </div>
+                                <?php endif; ?>
                             </ul>
                         </div>
                     </div>
                     <!-- End comment area box -->
-                    <!-- pagination box -->
-                    <?= $pager->links('hal', 'paging') ?>
-                    <!-- End Pagination box -->
 
                 </div>
                 <!-- End block content -->

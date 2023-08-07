@@ -30,39 +30,39 @@
 
                     <!-- contact form box -->
                     <div class="contact-form-box">
-                        <form id="contact-form">
+                        <form id="contact-form" method="post" action="<?= base_url('kontak/save') ?>" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="name">Nama Lengkap*</label>
-                                    <input name="name" type="text">
+                                    <input name="kontak_nama" type="text" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="mail">Pekerjaan*</label>
-                                    <input name="mail" type="text">
+                                    <input name="kontak_pekerjaan" type="text" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="name">No. Telepon*</label>
-                                    <input name="name" type="text">
+                                    <input name="kontak_telp" type="text" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="mail">File PDF</label>
-                                    <input name="mail" type="text">
+                                    <input name="kontak_file" type="file">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="name">Alamat*</label>
-                                    <input name="name" type="text">
+                                    <input name="kontak_alamat" type="text" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label for="mail">E-mail*</label>
-                                    <input name="mail" type="text">
+                                    <input name="kontak_email" type="text" required>
                                 </div>
                             </div>
                             <label for="comment">Komentar*</label>
-                            <textarea id="comment" name="comment"></textarea>
+                            <textarea id="comment" name="kontak_komentar" required></textarea>
                             <button type="submit" id="submit-contact">
                                 <i class="fa fa-paper-plane"></i> Kirim Pesan
                             </button>

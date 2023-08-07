@@ -143,9 +143,9 @@ class Kontak extends BaseController
         return view($this->halaman . 'kontak_form', $data);
     }
 
-    public function detail($slugKategori, $slugKonten)
+    public function cari()
     {
-        $data['title'] = '| Detail Berita';
+        $data['title'] = '| Kontak';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();
@@ -181,62 +181,97 @@ class Kontak extends BaseController
             ->orderby('berita_detail.berita_detail_dibaca', 'desc')
             ->limit(5)->findAll();
 
-        $data['konten'] = $this->pidatoDetailModel
-            ->join('kategori', 'kategori.kategori_id = pidato_detail.kategori_id')
-            ->where('pidato_detail.pidato_detail_slug', $slugKonten)
-            ->orderby('pidato_detail.pidato_detail_id', 'desc')
-            ->first();
-        $data['jml_pantun'] = $this->pidatoPantunModel
-            ->where('pidato_detail_id', $data['konten']->pidato_detail_id)
-            ->countAllResults();
+        //Content
+        // $data['konten'] = $this->kontakModel
+        //     ->where('kontak_show', 1)
+        //     ->orderby('kontak_id', 'desc')
+        //     ->paginate(6, 'hal');
+        $kontak_nama = $this->request->getPost('kontak_nama');
 
-        return view($this->halaman . 'pidatodetail', $data);
+        $query = $this->kontakModel
+            ->where('kontak_show', 1);
+        $query->Like('kontak_nama', $kontak_nama);
+        $query->orderby('kontak_id', 'desc');
+        $data['konten'] = $query->findAll();
+
+        // $data['pager'] = $this->kontakModel->pager;
+        // $data['nomor'] = nomor($this->request->getVar('page_hal'), 6);
+        //Statistik User
+        // $PHPSELF = $_SERVER['PHP_SELF'];
+        // $tgl = date("Y-m-d");
+        // $blan = date("Y-m");
+        // $thn = date("Y");
+        // //Hari ini
+        // $data['hariini'] = $this->PengunjungModel->where('pengunjung_tgl', $tgl)->countAllResults();
+        // //Bulan ini
+        // $data['bulanini'] = $this->PengunjungModel->like('pengunjung_tgl', $blan)->countAllResults();
+        // //Tahun ini
+        // $data['tahunini'] = $this->PengunjungModel->like('pengunjung_tgl', $thn)->countAllResults();
+        // //Online
+        // $data['online'] = $this->UseronlineModel->distinct('usersonline_ip')->where('usersonline_file', $PHPSELF)->selectCount('usersonline_ip')->first();
+
+        return view($this->halaman . 'kontakcari', $data);
     }
 
     public function save()
     {
         if (!$this->validate([
-            'kontak_kami_nama' => [
+            'kontak_nama' => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => '{field} Nama harus diisi',
+                    'required' => 'Nama harus diisi',
                 ]
             ],
-            'kontak_kami_email' => [
+            'kontak_pekerjaan' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Pekerjaan harus diisi',
+                ]
+            ],
+            'kontak_telp' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Telepon harus diisi',
+                ]
+            ],
+            'kontak_alamat' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Alamat harus diisi',
+                ]
+            ],
+            'kontak_komentar' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Komentar harus diisi',
+                ]
+            ],
+            'kontak_email' => [
                 'rules' => 'required|valid_email',
                 'errors' => [
-                    'required' => '{field} Email harus diisi',
-                    'valid_email' => '{field} Email yang di input salah',
-                ]
-            ],
-            'kontak_kami_judul' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} Judul harus diisi',
-                ]
-            ],
-            'kontak_kami_pesan' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} Pesan harus diisi',
+                    'required' => 'Email harus diisi',
+                    'valid_email' => 'Email yang di input salah',
                 ]
             ],
         ])) {
             // $validation = \Config\Services::validation();
-            return redirect()->to('/nimda/kontak')->withInput();
+            return redirect()->to('/kontak/form')->withInput();
         }
 
         $r = $this->kontakModel->save([
-            'kontak_kami_nama' => $this->request->getPost('kontak_kami_nama'),
-            'kontak_kami_email' => $this->request->getPost('kontak_kami_email'),
-            'kontak_kami_judul' => $this->request->getPost('kontak_kami_judul'),
-            'kontak_kami_pesan' => $this->request->getPost('kontak_kami_pesan'),
+            'kontak_nama' => $this->request->getPost('kontak_nama'),
+            'kontak_pekerjaan' => $this->request->getPost('kontak_pekerjaan'),
+            'kontak_telp' => $this->request->getPost('kontak_telp'),
+            'kontak_alamat' => $this->request->getPost('kontak_alamat'),
+            'kontak_email' => $this->request->getPost('kontak_email'),
+            'kontak_komentar' => $this->request->getPost('kontak_komentar'),
+            'kontak_show' => 0,
         ]);
 
         if ($r) {
-            $this->notif('Kontak Berhasil diubah.');
+            $this->notif('Kontak Berhasil disimpan.');
         } else {
-            $this->notif('Kontak Gagal diubah.', 'error');
+            $this->notif('Kontak Gagal disimpan.', 'error');
         }
 
         return redirect()->to('/kontak');

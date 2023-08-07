@@ -3684,3 +3684,713 @@ INFO - 2023-08-06 17:50:15 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-06 17:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-06 17:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-06 17:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:52 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:52 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:52 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:52 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:53 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw5.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:53 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:54 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:54 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:54 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:54 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:57 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw5.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:58 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:58 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:58 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:55:58 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:15 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:15 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:15 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:15 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:16 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:16 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:16 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:16 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:16 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:17 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:17 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:17 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:17 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:56:17 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:13 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:13 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:13 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:13 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:13 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:13 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:14 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:14 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:14 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:14 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:14 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 17:57:14 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 17:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 17:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:32 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:33 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:33 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:34 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:34 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:34 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:34 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:35 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:35 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:35 --> Trying to get property 'download_id' of non-object
+in APPPATH\Controllers\Download.php on line 85.
+ 1 APPPATH\Controllers\Download.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'download_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Download.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Download->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-06 23:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:45 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:46 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:46 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:46 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:47 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:47 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:47 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:48 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:48 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:40:48 --> Trying to get property 'kategori_id' of non-object
+in APPPATH\Controllers\Pidato.php on line 83.
+ 1 APPPATH\Controllers\Pidato.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'kategori_id\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pidato.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pidato->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:41:39 --> Too few arguments to function App\Controllers\Pantun_pidato::index(), 0 passed in C:\xampp\htdocs\prokopim_baru\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Pantun_pidato.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pantun_pidato->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantun_pidato))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-06 23:45:03 --> Undefined variable: slug
+in APPPATH\Controllers\Pantun_pidato.php on line 79.
+ 1 APPPATH\Controllers\Pantun_pidato.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: slug', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Pantun_pidato.php', 79, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pantun_pidato->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pantun_pidato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-06 23:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

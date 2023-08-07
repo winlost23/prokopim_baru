@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-9">
                         <ul class="top-line-list">
-                            <li><span class="time-now"><i class="fa fa-send"></i> Terwujudnya Kabupaten Buton Tengah yang Bermarwah, Maju dan Sejahtera</span></li>
+                            <li><span class="time-now"><i class="fa fa-send"></i> Terwujudnya Kabupaten Berau yang Bermarwah, Maju dan Sejahtera</span></li>
                             <!-- <li><span class="time-now">Thursday 8 January 2015 / 21:20</span></li>
                             <li><a href="#">Log In</a></li>
                             <li><a href="contact.html">Contact</a></li>

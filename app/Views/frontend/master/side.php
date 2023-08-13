@@ -53,7 +53,7 @@
                         <li>
                             <!-- <img src="upload/news-posts/listw1.jpg" alt=""> -->
                             <div class="post-content">
-                                <h2><a href="single-post.html"><?= $d->agenda_judul ?></a></h2>
+                                <h2><a href="<?= base_url('agenda/detail/' . $d->agenda_slug) ?>"><?= $d->agenda_judul ?></a></h2>
                                 <ul class="post-tags">
                                     <?php
                                     $date = strtotime($d->created_at);

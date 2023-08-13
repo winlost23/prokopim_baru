@@ -356,175 +356,75 @@
 
                         <ul class="nav nav-tabs" id="myTab">
                             <li class="active">
-                                <a href="#option1" data-toggle="tab">Popular</a>
+                                <a href="#option1" data-toggle="tab">Agenda</a>
                             </li>
                             <li>
-                                <a href="#option2" data-toggle="tab">Recent</a>
+                                <a href="#option2" data-toggle="tab">Berita Populer</a>
                             </li>
                             <li>
-                                <a href="#option3" data-toggle="tab">Top Reviews</a>
+                                <a href="#option3" data-toggle="tab">Download</a>
                             </li>
                         </ul>
 
                         <div class="tab-content">
                             <div class="tab-pane active" id="option1">
                                 <ul class="list-posts">
+                                <?php foreach ($agenda_baru as $d) : ?>
                                     <li>
-                                        <img src="upload/news-posts/listw1.jpg" alt="">
+                                        <!-- <img src="upload/news-posts/listw1.jpg" alt=""> -->
                                         <div class="post-content">
-                                            <h2><a href="single-post.html">Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </a></h2>
+                                            <h2><a href="<?= base_url('agenda/detail/' . $d->agenda_slug) ?>"><?= $d->agenda_judul ?></a></h2>
                                             <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
+                                                <?php
+                                                $date = strtotime($d->created_at);
+                                                $newDate = date('d M Y', $date);
+                                                ?>
+                                                <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
                                             </ul>
                                         </div>
                                     </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw2.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Sed arcu. Cras consequat. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw3.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Phasellus ultrices nulla quis nibh. Quisque a lectus. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw4.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Donec consectetuer ligula vulputate sem tristique cursus. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw5.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
+                                <?php endforeach; ?>
                                 </ul>
                             </div>
                             <div class="tab-pane" id="option2">
                                 <ul class="list-posts">
 
+                                <?php foreach ($berita_populer as $d) : ?>
                                     <li>
-                                        <img src="upload/news-posts/listw3.jpg" alt="">
+                                        <img src="<?= base_url('img/berita/' . $d->berita_detail_gambar) ?>" alt="">
                                         <div class="post-content">
-                                            <h2><a href="single-post.html">Phasellus ultrices nulla quis nibh. Quisque a lectus. </a></h2>
+                                            <h2><a href="<?= base_url('berita/detail/' . $d->berita_slug . '/' . $d->berita_detail_slug) ?>"><?= $d->berita_detail_judul ?></a></h2>
                                             <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
+                                                <?php
+                                                $date = strtotime($d->created_at);
+                                                $newDate = date('d M Y', $date);
+                                                ?>
+                                                <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
+                                                <li><i class="fa fa-eye"></i><?= $d->berita_detail_dibaca ?></li>
                                             </ul>
                                         </div>
                                     </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw4.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Donec consectetuer ligula vulputate sem tristique cursus. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw5.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="upload/news-posts/listw1.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw2.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Sed arcu. Cras consequat.</a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
+                                <?php endforeach; ?>
                                 </ul>
                             </div>
                             <div class="tab-pane" id="option3">
                                 <ul class="list-posts">
 
+                                <?php foreach ($download as $d) : ?>
                                     <li>
-                                        <img src="upload/news-posts/listw4.jpg" alt="">
+                                        <!-- <img src="upload/news-posts/listw1.jpg" alt=""> -->
                                         <div class="post-content">
-                                            <h2><a href="single-post.html">Donec consectetuer ligula vulputate sem tristique cursus. </a></h2>
+                                            <h2><a href="<?= base_url('download/get_download/' . $d->download_detail_id) ?>"><?= $d->download_detail_judul ?></a></h2>
                                             <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
+                                                <?php
+                                                $date = strtotime($d->created_at);
+                                                $newDate = date('d M Y', $date);
+                                                ?>
+                                                <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
                                             </ul>
                                         </div>
                                     </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw1.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw3.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Phasellus ultrices nulla quis nibh. Quisque a lectus. </a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw2.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Sed arcu. Cras consequat.</a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="upload/news-posts/listw5.jpg" alt="">
-                                        <div class="post-content">
-                                            <h2><a href="single-post.html">Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</a></h2>
-                                            <ul class="post-tags">
-                                                <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                            </ul>
-                                        </div>
-                                    </li>
+                                <?php endforeach; ?>
                                 </ul>
                             </div>
                         </div>
@@ -532,186 +432,64 @@
 
                     <div class="widget features-slide-widget">
                         <div class="title-section">
-                            <h1><span>Featured Posts</span></h1>
+                            <h1><span>Berita Foto</span></h1>
                         </div>
                         <div class="image-post-slider">
                             <ul class="bxslider">
-                                <li>
-                                    <div class="news-post image-post2">
-                                        <div class="post-gallery">
-                                            <img src="upload/news-posts/im3.jpg" alt="">
-                                            <div class="hover-box">
-                                                <div class="inner-hover">
-                                                    <h2><a href="single-post.html">Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </a></h2>
-                                                    <ul class="post-tags">
-                                                        <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                                        <li><i class="fa fa-user"></i>by <a href="#">John Doe</a></li>
-                                                        <li><a href="#"><i class="fa fa-comments-o"></i><span>23</span></a></li>
-                                                        <li><i class="fa fa-eye"></i>872</li>
-                                                    </ul>
+                                <?php foreach ($berita_foto_slide as $d) : ?>
+                                    <li>
+                                        <div class="news-post image-post2">
+                                            <div class="post-gallery">
+                                                <img src="<?= base_url('img/berita/' . $d->berita_foto_gambar) ?>" alt="">
+                                                <div class="hover-box">
+                                                    <div class="inner-hover">
+                                                        <h2><a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>l"><?= $d->berita_foto_slug ?></a></h2>
+                                                        <ul class="post-tags">
+                                                            <li><i class="fa fa-clock-o"></i><?= $d->created_at ?></li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="news-post image-post2">
-                                        <div class="post-gallery">
-                                            <img src="upload/news-posts/im1.jpg" alt="">
-                                            <div class="hover-box">
-                                                <div class="inner-hover">
-                                                    <h2><a href="single-post.html">Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </a></h2>
-                                                    <ul class="post-tags">
-                                                        <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                                        <li><i class="fa fa-user"></i>by <a href="#">John Doe</a></li>
-                                                        <li><a href="#"><i class="fa fa-comments-o"></i><span>23</span></a></li>
-                                                        <li><i class="fa fa-eye"></i>872</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="news-post image-post2">
-                                        <div class="post-gallery">
-                                            <img src="upload/news-posts/im2.jpg" alt="">
-                                            <div class="hover-box">
-                                                <div class="inner-hover">
-                                                    <h2><a href="single-post.html">Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </a></h2>
-                                                    <ul class="post-tags">
-                                                        <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                                        <li><i class="fa fa-user"></i>by <a href="#">John Doe</a></li>
-                                                        <li><a href="#"><i class="fa fa-comments-o"></i><span>23</span></a></li>
-                                                        <li><i class="fa fa-eye"></i>872</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
+                                    </li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>
 
                     <div class="widget recent-comments-widget">
                         <div class="title-section">
-                            <h1><span>Recent Comments</span></h1>
+                            <h1><span>Kontak Kami</span></h1>
                         </div>
                         <div class="owl-wrapper">
                             <div class="owl-carousel" data-num="1">
                                 <div class="item">
                                     <ul class="comment-list">
+                                        <?php
+
+                                        use App\Models\KontakModel;
+
+                                        $this->kontakModel = new KontakModel();
+                                        foreach ($kontak as $d) :
+                                            $balas = $this->kontakModel
+                                                ->where('kontak_id_parent', $d->kontak_id)
+                                                ->first(); ?>
                                         <li>
-                                            <img src="upload/news-posts/avatar1.jpg" alt="">
+                                            <img alt="" src="<?= base_url('img/img_avatar3.png') ?>">
                                             <div class="comment-content">
                                                 <p class="main-message">
-                                                    Donec nec justo eget felis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+                                                    <?= $d->kontak_nama ?>
                                                 </p>
-                                                <p>Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-                                                <span><i class="fa fa-user"></i>by John Doe</span>
+                                                <?php if ($balas) { ?>
+                                                    <p><?= $balas->kontak_komentar ?></p>
+                                                <?php } ?>
+                                                <span><i class="fa fa-user"></i>Oleh <?= $d->kontak_nama ?></span>
                                             </div>
                                         </li>
-                                        <li>
-                                            <img src="upload/news-posts/avatar2.jpg" alt="">
-                                            <div class="comment-content">
-                                                <p class="main-message">
-                                                    Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
-                                                </p>
-                                                <p>Donec nec justo eget felis facilisis fermentum. </p>
-                                                <span><i class="fa fa-user"></i>by John Doe</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="upload/news-posts/avatar3.jpg" alt="">
-                                            <div class="comment-content">
-                                                <p class="main-message">
-                                                    Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
-                                                </p>
-                                                <p>Aliquam porttitor mauris sit amet orci. </p>
-                                                <span><i class="fa fa-user"></i>by John Doe</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="item">
-                                    <ul class="comment-list">
-                                        <li>
-                                            <img src="upload/news-posts/avatar3.jpg" alt="">
-                                            <div class="comment-content">
-                                                <p class="main-message">
-                                                    Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
-                                                </p>
-                                                <p>Aliquam porttitor mauris sit amet orci. </p>
-                                                <span><i class="fa fa-user"></i>by John Doe</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="upload/news-posts/avatar1.jpg" alt="">
-                                            <div class="comment-content">
-                                                <p class="main-message">
-                                                    Donec nec justo eget felis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
-                                                </p>
-                                                <p>Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-                                                <span><i class="fa fa-user"></i>by John Doe</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="upload/news-posts/avatar2.jpg" alt="">
-                                            <div class="comment-content">
-                                                <p class="main-message">
-                                                    Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
-                                                </p>
-                                                <p>Donec nec justo eget felis facilisis fermentum. </p>
-                                                <span><i class="fa fa-user"></i>by John Doe</span>
-                                            </div>
-                                        </li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="widget subscribe-widget">
-                        <form class="subscribe-form">
-                            <h1>Subscribe to RSS Feeds</h1>
-                            <input type="text" name="sumbscribe" id="subscribe" placeholder="Email" />
-                            <button id="submit-subscribe">
-                                <i class="fa fa-arrow-circle-right"></i>
-                            </button>
-                            <p>Get all latest content delivered to your email a few times a month.</p>
-                        </form>
-                    </div>
-
-                    <div class="widget post-widget">
-                        <div class="title-section">
-                            <h1><span>Featured Video</span></h1>
-                        </div>
-                        <div class="news-post video-post">
-                            <img alt="" src="upload/news-posts/video-sidebar.jpg">
-                            <a href="https://www.youtube.com/watch?v=LL59es7iy8Q" class="video-link"><i class="fa fa-play-circle-o"></i></a>
-                            <div class="hover-box">
-                                <h2><a href="single-post.html">Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </a></h2>
-                                <ul class="post-tags">
-                                    <li><i class="fa fa-clock-o"></i>27 may 2013</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis. </p>
-                    </div>
-
-                    <div class="advertisement">
-                        <div class="desktop-advert">
-                            <span>Advertisement</span>
-                            <img src="upload/addsense/300x250.jpg" alt="">
-                        </div>
-                        <div class="tablet-advert">
-                            <span>Advertisement</span>
-                            <img src="upload/addsense/200x200.jpg" alt="">
-                        </div>
-                        <div class="mobile-advert">
-                            <span>Advertisement</span>
-                            <img src="upload/addsense/300x250.jpg" alt="">
                         </div>
                     </div>
 

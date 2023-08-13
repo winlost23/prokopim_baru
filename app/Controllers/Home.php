@@ -7,10 +7,12 @@ use App\Models\AgendaModel;
 use App\Models\BeritaDetailModel;
 use App\Models\BeritaFotoModel;
 use App\Models\BeritaModel;
+use App\Models\DownloadDetailModel;
 use App\Models\DownloadModel;
 use App\Models\GaleriKegiatanFotoModel;
 use App\Models\GaleriKegiatanModel;
 use App\Models\KategoriModel;
+use App\Models\KontakModel;
 use App\Models\PengaturanModel;
 use App\Models\PenghargaanModel;
 use App\Models\PengunjungModel;
@@ -42,6 +44,8 @@ class Home extends BaseController
 		$this->penghargaanModel = new PenghargaanModel();
 		$this->galeriKegiatanModel = new GaleriKegiatanModel();
 		$this->agendaModel = new AgendaModel();
+		$this->downloadDetailModel = new DownloadDetailModel();
+		$this->kontakModel = new KontakModel();
 	}
 
 	public function index()
@@ -84,6 +88,24 @@ class Home extends BaseController
 		$data['jml_galeri_foto'] = $this->galeriKegiatanFotoModel->countAll();
 		$data['jml_berita_foto'] = $this->beritaFotoModel->countAll();
 		$data['jml_video_kegiatan'] = $this->videoKegiatanModel->countAll();
+		$data['agenda_baru'] = $this->agendaModel
+            ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
+		$data['berita_populer'] = $this->beritadetailModel
+            ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+            ->orderby('berita_detail.berita_detail_dibaca', 'desc')
+            ->limit(5)->findAll();
+		$data['download'] = $this->downloadDetailModel
+            ->join('download', 'download.download_id = download_detail.download_id')
+            ->orderby('download_detail.download_detail_id', 'desc')
+            ->limit(5)->findAll();
+		$data['berita_foto_slide'] = $this->beritaFotoModel
+            ->orderby('berita_foto_id', 'desc')
+            ->limit(5)->findAll();
+		$data['kontak'] = $this->kontakModel
+            ->where('kontak_show', 1)
+            ->orderby('kontak_id', 'desc')
+            ->limit(5)->findAll();
 
 		//konten
 		$data['berita_foto'] = $this->beritaFotoModel
@@ -178,8 +200,8 @@ class Home extends BaseController
 			->orderby('berita_detail.berita_detail_id', 'desc')
 			->limit(5)->findAll();
 		$data['agenda_baru'] = $this->agendaModel
-			->orderby('agenda_id', 'desc')
-			->limit(5)->findAll();
+            ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
 
 		$data['berita_populer'] = $this->beritadetailModel
 			->join('berita', 'berita.berita_id = berita_detail.berita_id')

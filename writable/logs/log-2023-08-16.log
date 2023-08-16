@@ -1,0 +1,140 @@
+INFO - 2023-08-16 00:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 00:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:41 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:41 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:41 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw5.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:42 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:42 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:42 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:43 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:43 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:43 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 00:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 00:42:43 --> Trying to get property 'profil_judul' of non-object
+in APPPATH\Views\frontend\profil.php on line 23.
+ 1 APPPATH\Views\frontend\profil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'profil_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(99): view('frontend/profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profil->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')

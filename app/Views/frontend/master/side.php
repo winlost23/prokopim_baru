@@ -52,14 +52,18 @@
                     <?php foreach ($agenda_baru as $d) : ?>
                         <li>
                             <!-- <img src="upload/news-posts/listw1.jpg" alt=""> -->
+                            <div class="events-date relative-position text-center rounded">
+                                <?php
+                                $date = strtotime($d->created_at);
+                                $newDate = date('d', $date);
+                                $newDateM = date('M Y', $date);
+                                ?>
+                                <span class="event-date"><?= $newDate ?></span>
+                                <?= $newDateM ?>
+                            </div>
                             <div class="post-content">
                                 <h2><a href="<?= base_url('agenda/detail/' . $d->agenda_slug) ?>"><?= $d->agenda_judul ?></a></h2>
                                 <ul class="post-tags">
-                                    <?php
-                                    $date = strtotime($d->created_at);
-                                    $newDate = date('d M Y', $date);
-                                    ?>
-                                    <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
                                 </ul>
                             </div>
                         </li>

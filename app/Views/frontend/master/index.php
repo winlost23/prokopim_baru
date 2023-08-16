@@ -37,6 +37,32 @@
       -webkit-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
     }
+
+    .events-date{
+        float:left;
+        height:75px;
+        width:87px;
+        font-size:13px;
+        font-weight:500;
+        border:double 3px transparent;
+        border-radius:80px;
+        background-image:linear-gradient(white, white), radial-gradient(circle at top left, #f44336,#f44336);
+        background-origin:border-box;
+        background-clip:content-box, border-box;
+        margin-right:15px;
+        background-color:#fafafa;
+        font-family: 'Lato', sans-serif;
+    }
+    .events-date span{
+        font-size:30px;
+        padding-top:5px;
+        color:#333333;
+        line-height:1;
+        display:block;
+    }
+    .rounded {
+        border-radius:.25rem!important
+    }
   </style>
 </head>
 

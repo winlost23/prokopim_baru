@@ -36,7 +36,7 @@ class Sekretariat extends BaseController
 
     public function index($slug)
     {
-        $data['title'] = '| Profil';
+        $data['title'] = '| Sekretariat';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();

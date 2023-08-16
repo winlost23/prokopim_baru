@@ -42,7 +42,7 @@ class Video_kegiatan extends BaseController
 
     public function index()
     {
-        $data['title'] = '| Penghargaan';
+        $data['title'] = '| Video Kegiatan';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();
@@ -104,7 +104,7 @@ class Video_kegiatan extends BaseController
 
     public function detail($slugKonten)
     {
-        $data['title'] = '| Detail Penghargaan';
+        $data['title'] = '| Detail Video Kegiatan';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();

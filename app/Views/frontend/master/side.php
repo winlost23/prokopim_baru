@@ -64,6 +64,8 @@
                             <div class="post-content">
                                 <h2><a href="<?= base_url('agenda/detail/' . $d->agenda_slug) ?>"><?= $d->agenda_judul ?></a></h2>
                                 <ul class="post-tags">
+                                    <li><i class="fa fa-clock-o"></i><?= $d->agenda_jam ?></li>
+                                    <li><i class="fa fa-map-marker"></i><?= $d->agenda_lokasi ?></li>
                                 </ul>
                             </div>
                         </li>

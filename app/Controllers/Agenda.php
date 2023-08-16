@@ -39,7 +39,7 @@ class Agenda extends BaseController
 
     public function index()
     {
-        $data['title'] = '| Pidato';
+        $data['title'] = '| Agenda';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();
@@ -102,7 +102,7 @@ class Agenda extends BaseController
 
     public function detail($slug)
     {
-        $data['title'] = '| Detail Berita';
+        $data['title'] = '| Detail Agenda';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();

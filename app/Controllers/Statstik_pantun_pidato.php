@@ -38,7 +38,7 @@ class Statstik_pantun_pidato extends BaseController
 
     public function index()
     {
-        $data['title'] = '| Pidato';
+        $data['title'] = '| Pantun';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();

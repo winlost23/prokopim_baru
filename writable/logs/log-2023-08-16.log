@@ -138,3 +138,280 @@ in APPPATH\Views\frontend\profil.php on line 23.
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 02:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:24 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:24 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:25 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:25 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:25 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw5.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:25 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:25 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:26 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:26 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:50:26 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:46 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:46 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:46 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:46 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw4.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:46 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw5.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:47 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw3@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:47 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw4@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:47 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw5@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:47 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw1@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-16 07:54:47 --> Trying to get property 'sekretariat_judul' of non-object
+in APPPATH\Views\frontend\sekretariat.php on line 23.
+ 1 APPPATH\Views\frontend\sekretariat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sekretariat_judul\' of non-object', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 5 APPPATH\Controllers\Sekretariat.php(94): view('frontend/sekretariat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('upload', 'news-posts', 'listw2@2x.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-16 07:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-16 07:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

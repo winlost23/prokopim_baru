@@ -42,7 +42,7 @@ class Berita_foto extends BaseController
 
     public function index()
     {
-        $data['title'] = '| Penghargaan';
+        $data['title'] = '| Berita Foto';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();
@@ -104,7 +104,7 @@ class Berita_foto extends BaseController
 
     public function detail($slugKonten)
     {
-        $data['title'] = '| Detail Penghargaan';
+        $data['title'] = '| Detail Berita Foto';
         $data['menu'] = 'kedua';
         $data['pengaturan'] = $this->pengaturanModel
             ->first();

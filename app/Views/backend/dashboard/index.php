@@ -83,7 +83,7 @@ $bulans = array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
         },
         yaxis: {
             title: {
-                text: 'Pengguna'
+                text: 'Agenda (<?= date('Y') ?>)'
             }
         },
         fill: {
@@ -394,7 +394,7 @@ $bulans = array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
             <!--end row-->
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title mt-0">Statistik Pengguna</h4>
+                    <h4 class="header-title mt-0">Statistik Agenda (<?= date('Y') ?>)</h4>
                     <div class="">
                         <div id="ana_dash_1" class="apex-charts"></div>
                     </div>

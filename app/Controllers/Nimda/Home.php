@@ -51,7 +51,7 @@ class Home extends BaseController
 
         //grafik user
         $db = \Config\Database::connect();
-        $query = $db->query('SELECT COUNT(pengunjung_tgl)as jml, pengunjung_tgl FROM pengunjung WHERE year(pengunjung_tgl) = 2021 GROUP BY month(pengunjung_tgl)');
+        $query = $db->query('SELECT COUNT(agenda_tanggal)as jml, agenda_tanggal FROM agenda WHERE year(agenda_tanggal) = YEAR(NOW()) GROUP BY month(agenda_tanggal)');
         $results = $query->getResult();
         $data['pengunjung'] = $results;
 

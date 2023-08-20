@@ -205,74 +205,43 @@
 
                     </div>
                     <!-- End grid-box -->
-
-                    <!-- carousel box -->
-                    <div class="carousel-box owl-wrapper">
+                    <!-- article box -->
+                    <div class="article-box">
 
                         <div class="title-section">
-                            <h1><span class="world">Penghargaan</span></h1>
+                            <h1><span>Penghargaan</span></h1>
                         </div>
 
-                        <div class="owl-carousel" data-num="2">
-                            <?php
-                            $no = 1;
-                            foreach ($penghargaan as $d) :
-                                if ($no == 1 || $no == 4) {
-                            ?>
-                                    <div class="item">
-                                        <div class="news-post image-post2">
-                                            <div class="post-gallery">
-                                                <img src="<?= base_url('img/berita/' . $d->penghargaan_gambar) ?>" alt="">
-                                                <div class="hover-box">
-                                                    <div class="inner-hover">
-                                                        <h2><a href="<?= base_url('penghargaan/' . $d->penghargaan_slug) ?>"><?= $d->penghargaan_judul ?></a></h2>
-                                                        <ul class="post-tags">
-                                                            <?php
-                                                            $date = strtotime($d->created_at);
-                                                            $newDate = date('d M Y', $date);
-                                                            ?>
-                                                            <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
+                        <?php foreach ($penghargaan as $d) : ?>
+                            <div class="news-post article-post">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="post-gallery">
+                                            <img alt="" src="<?= base_url('img/berita/' . $d->penghargaan_gambar) ?>">
                                         </div>
-                                    <?php
-                                }
-                                if ($no == 2 || $no == 4) {
-                                    ?>
-                                        <ul class="list-posts">
-                                        <?php
-                                    }
-                                    if ($no >= 2 && $no <= 3 || $no >= 4 && $no <= 6) {
-                                        ?>
-                                            <li>
-                                                <img src="<?= base_url('img/berita/' . $d->penghargaan_gambar) ?>" alt="">
-                                                <div class="post-content">
-                                                    <h2><a href="<?= base_url('penghargaan/' . $d->penghargaan_slug) ?>"><?= $d->penghargaan_judul ?></a></h2>
-                                                    <ul class="post-tags">
-                                                        <?php
-                                                        $date = strtotime($d->created_at);
-                                                        $newDate = date('d M Y', $date);
-                                                        ?>
-                                                        <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        <?php
-                                    }
-                                    if ($no == 3 || $no == 6) { ?>
-                                        </ul>
                                     </div>
-                                <?php } ?>
-                            <?php
-                                $no++;
-                            endforeach; ?>
-
-                        </div>
+                                    <div class="col-sm-7">
+                                        <div class="post-content">
+                                            <h2><a href="<?= base_url('penghargaan/detail/' . $d->kategori_slug . '/' . $d->penghargaan_slug) ?>"><?= $d->penghargaan_judul ?></a></h2>
+                                            <ul class="post-tags">
+                                                <li><i class="fa fa-clock-o"></i><?= $d->penghargaan_tahun ?></li>
+                                            </ul>
+                                            <?php
+                                            $kalimat = htmlentities(strip_tags($d->penghargaan_isi));
+                                            $desc = substr($kalimat, 0, 100);
+                                            $desc = substr($kalimat, 0, strrpos($desc, " "));
+                                            ?>
+                                            <p><?= $desc ?></p>
+                                            <a href="<?= base_url('penghargaan/detail/' . $d->kategori_slug . '/' . $d->penghargaan_slug) ?>" class="read-more-button"><i class="fa fa-arrow-circle-right"></i>Selengkapnya</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
 
                     </div>
-                    <!-- End carousel box -->
+                    <!-- End article box -->
+                    
 
                     <!-- article box -->
                     <div class="article-box">

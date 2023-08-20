@@ -19,11 +19,18 @@
                     </div>
                     <div class="col-md-3">
                         <ul class="social-icons">
-                            <li><a class="facebook" href="<?= $pengaturan->pengaturan_facebook ?>"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="twitter" href="<?= $pengaturan->pengaturan_twitter ?>"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="google" href="<?= $pengaturan->pengaturan_email ?>"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a class="instagram" href="<?= $pengaturan->pengaturan_instagram ?>"><i class="fa fa-instagram"></i></a></li>
+                            <?php if($pengaturan->pengaturan_facebook != ''){ ?>
+                                <li><a class="facebook" href="<?= $pengaturan->pengaturan_facebook ?>"><i class="fa fa-facebook"></i></a></li>
+                            <?php } ?>
+                            <?php if($pengaturan->pengaturan_twitter != ''){ ?>
+                                <li><a class="twitter" href="<?= $pengaturan->pengaturan_twitter ?>"><i class="fa fa-twitter"></i></a></li>
+                            <?php } ?>
+                            <?php if($pengaturan->pengaturan_youtube != ''){ ?>
+                                <li><a class="youtube" href="<?= $pengaturan->pengaturan_youtube ?>"><i class="fa fa-youtube"></i></a></li>
+                            <?php } ?>
+                            <?php if($pengaturan->pengaturan_instagram != ''){ ?>
+                                <li><a class="instagram" href="<?= $pengaturan->pengaturan_instagram ?>"><i class="fa fa-instagram"></i></a></li>
+                            <?php } ?>
                         </ul>
                     </div>
                 </div>

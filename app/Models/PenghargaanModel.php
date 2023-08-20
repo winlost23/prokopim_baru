@@ -18,6 +18,7 @@ class PenghargaanModel extends Model
         'penghargaan_slug',
         'penghargaan_gambar',
         'penghargaan_isi',
+        'penghargaan_tahun',
     ];
 
     protected $useTimestamps = true;

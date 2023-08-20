@@ -72,6 +72,13 @@ class Penghargaan extends BaseController
                     'required' => 'Isi penghargaan harus diisi',
                 ]
             ],
+            'penghargaan_tahun' => [
+                'rules' => 'required|is_natural',
+                'errors' => [
+                    'required' => 'Tahun penghargaan harus diisi',
+                    'is_natural' => 'Harus diisi dengan angka'
+                ]
+            ],
             'penghargaan_gambar' => [
                 'rules' => 'max_size[penghargaan_gambar,2224]|is_image[penghargaan_gambar]|mime_in[penghargaan_gambar,image/jpg,image/jpeg,image/png]',
                 'errors' => [
@@ -103,6 +110,7 @@ class Penghargaan extends BaseController
             'penghargaan_slug' => $slug,
             'penghargaan_gambar' => $namaSampul,
             'penghargaan_isi' => $this->request->getVar('penghargaan_isi'),
+            'penghargaan_tahun' => $this->request->getVar('penghargaan_tahun'),
         ]);
         if ($r) {
             $this->notif('Penghargaan Baru Berhasil disimpan.');
@@ -151,6 +159,13 @@ class Penghargaan extends BaseController
                     'required' => 'Isi penghargaan harus diisi',
                 ]
             ],
+            'penghargaan_tahun' => [
+                'rules' => 'required|is_natural',
+                'errors' => [
+                    'required' => 'Tahun penghargaan harus diisi',
+                    'is_natural' => 'Harus diisi dengan angka'
+                ]
+            ],
             'penghargaan_gambar' => [
                 'rules' => 'max_size[penghargaan_gambar,2224]|is_image[penghargaan_gambar]|mime_in[penghargaan_gambar,image/jpg,image/jpeg,image/png]',
                 'errors' => [
@@ -184,6 +199,7 @@ class Penghargaan extends BaseController
             'penghargaan_slug' => $slug,
             'penghargaan_gambar' => $namaSampul,
             'penghargaan_isi' => $this->request->getVar('penghargaan_isi'),
+            'penghargaan_tahun' => $this->request->getVar('penghargaan_tahun'),
         ]);
 
         if ($r) {

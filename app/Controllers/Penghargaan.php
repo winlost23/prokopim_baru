@@ -232,7 +232,7 @@ class Penghargaan extends BaseController
 
         //Content
         $penghargaan_judul = $this->request->getPost('penghargaan_judul');
-        $created_at = $this->request->getPost('pidato_detail_tempat');
+        $tahun = $this->request->getPost('penghargaan_tahun');
         $kategori_id = $this->request->getPost('kategori_id');
 
         $query = $this->penghargaanModel
@@ -240,8 +240,8 @@ class Penghargaan extends BaseController
         if ($penghargaan_judul) {
             $query->Like('penghargaan.penghargaan_judul', $penghargaan_judul);
         }
-        if ($created_at) {
-            $query->Like('penghargaan.created_at', $created_at);
+        if ($tahun) {
+            $query->Like('penghargaan.penghargaan_tahun', $tahun);
         }
         if ($kategori_id) {
             $query->Like('penghargaan.kategori_id', $kategori_id);

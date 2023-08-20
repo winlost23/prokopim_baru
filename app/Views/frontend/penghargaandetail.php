@@ -23,11 +23,7 @@
                         <div class="title-post">
                             <h1><?= $konten->penghargaan_judul ?></h1>
                             <ul class="post-tags">
-                                <?php
-                                $date = strtotime($konten->created_at);
-                                $newDate = date('d/M/Y h:i:s', $date);
-                                ?>
-                                <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
+                                <li><i class="fa fa-clock-o"></i><?= $konten->penghargaan_tahun ?></li>
                             </ul>
                         </div>
 
@@ -39,16 +35,6 @@
                         <div class="post-content">
 
                             <?= $konten->penghargaan_isi ?>
-                        </div>
-
-                        <div class="share-post-box">
-                            <ul class="share-box">
-                                <li><i class="fa fa-share-alt"></i><span>Share Post</span></li>
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i>Share on Facebook</a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i>Share on Twitter</a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i><span></span></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i><span></span></a></li>
-                            </ul>
                         </div>
 
                         <!-- carousel box -->
@@ -63,11 +49,7 @@
                                         <div class="hover-box">
                                             <h2><a href="<?= base_url('penghargaan/detail/' . $d->kategori_slug . '/' . $d->penghargaan_slug) ?>"><?= $d->penghargaan_judul ?></a></h2>
                                             <ul class="post-tags">
-                                                <?php
-                                                $date = strtotime($d->created_at);
-                                                $newDate = date('d/M/Y h:i:s', $date);
-                                                ?>
-                                                <li><i class="fa fa-clock-o"></i><?= $newDate ?></li>
+                                                <li><i class="fa fa-clock-o"></i><?= $d->penghargaan_tahun ?></li>
                                             </ul>
                                         </div>
                                     </div>

@@ -57,6 +57,7 @@
                                 <th width="5%">No</th>
                                 <th>Judul</th>
                                 <th>Kategori</th>
+                                <th>Tahun</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -69,8 +70,14 @@
                             ?>
                                 <tr>
                                     <td><?= $nomor++ ?></td>
-                                    <td><?= $u->penghargaan_judul ?></td>
+                                    <?php
+                                    $kalimat = htmlentities(strip_tags($u->penghargaan_judul));
+                                    $desc = substr($kalimat, 0, 100);
+                                    $desc = substr($kalimat, 0, strrpos($desc, " "));
+                                    ?>
+                                    <td><?= $desc ?></td>
                                     <td><?= $u->kategori_judul ?></td>
+                                    <td><?= $u->penghargaan_tahun ?></td>
                                     <td class="text-center">
                                         <a href="<?= base_url('nimda/penghargaan/edit/' . $u->penghargaan_id) ?>" class="mr-2"><i class="fas fa-edit text-info font-16"></i></a>
                                         <a href="<?= base_url('nimda/penghargaan/delete/' . $u->penghargaan_id) ?>" onclick="return confirm('are you sure?')"><i class="fas fa-trash-alt text-danger font-16"></i></a>

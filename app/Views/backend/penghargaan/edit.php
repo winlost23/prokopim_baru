@@ -98,6 +98,15 @@
 
                                 </div>
                             </div>
+                            <div class="form-group row">
+                                <label for="nama" class="col-sm-3 col-form-label">Tahun</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control <?= ($validation->hasError('penghargaan_tahun')) ? 'is-invalid' : '' ?>" id="penghargaan_tahun" name="penghargaan_tahun" autofocus value="<?= (old('penghargaan_tahun')) ? old('penghargaan_tahun') : $penghargaan->penghargaan_tahun ?>">
+                                    <div class="invalid-feedback">
+                                        <?= $validation->getError('penghargaan_tahun'); ?>
+                                    </div>
+                                </div>
+                            </div>
                             <div class=" form-group row">
                                 <label for="nama" class="col-sm-3 col-form-label">Gambar</label>
                                 <div class="col-sm-9">

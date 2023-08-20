@@ -84,7 +84,15 @@
 
                                 </div>
                             </div>
-
+                            <div class="form-group row">
+                                <label for="nama" class="col-sm-3 col-form-label">Tahun</label>
+                                <div class="col-sm-9">
+                                    <input type="number" class="form-control <?= ($validation->hasError('penghargaan_tahun')) ? 'is-invalid' : '' ?>" id="penghargaan_tahun" placeholder="Masukkan Tahun" name="penghargaan_tahun" value="<?= old('penghargaan_tahun') ?>">
+                                    <div class="invalid-feedback">
+                                        <?= $validation->getError('penghargaan_tahun'); ?>
+                                    </div>
+                                </div>
+                            </div>
                             <div class=" form-group row">
                                 <label for="nama" class="col-sm-3 col-form-label">Gambar</label>
                                 <div class="col-sm-9">

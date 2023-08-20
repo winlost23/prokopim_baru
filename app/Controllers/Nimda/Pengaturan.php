@@ -75,24 +75,6 @@ class Pengaturan extends BaseController
                     'valid_email' => '{field} Email yang di input salah',
                 ]
             ],
-            'pengaturan_facebook' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} Judul harus diisi',
-                ]
-            ],
-            'pengaturan_twitter' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} Judul harus diisi',
-                ]
-            ],
-            'pengaturan_instagram' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => '{field} Judul harus diisi',
-                ]
-            ],
             'pengaturan_footer' => [
                 'rules' => 'required',
                 'errors' => [
@@ -145,6 +127,7 @@ class Pengaturan extends BaseController
             'pengaturan_facebook' => $this->request->getPost('pengaturan_facebook'),
             'pengaturan_twitter' => $this->request->getPost('pengaturan_twitter'),
             'pengaturan_instagram' => $this->request->getPost('pengaturan_instagram'),
+            'pengaturan_youtube' => $this->request->getPost('pengaturan_youtube'),
             'pengaturan_footer' => $this->request->getPost('pengaturan_footer'),
             'pengaturan_logo_header' => $namaSampulHeader,
             'pengaturan_favicon' => $namaSampulFavicon,

@@ -23,6 +23,7 @@ class PengaturanModel extends Model
         'pengaturan_facebook',
         'pengaturan_twitter',
         'pengaturan_instagram',
+        'pengaturan_youtube',
         'pengaturan_footer',
     ];
 

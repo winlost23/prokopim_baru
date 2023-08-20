@@ -36,7 +36,7 @@ use App\Controllers\Nimda\Kontak;
                                 </tr>
                                 <tr>
                                     <td>Tanggal Acara</td>
-                                    <td><?= $konten->pidato_detail_tgl_acara ?></td>
+                                    <td><?= format_indo($konten->pidato_detail_tgl_acara) ?></td>
                                 </tr>
                                 <tr>
                                     <td>Tempat</td>

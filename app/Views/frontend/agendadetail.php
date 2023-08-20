@@ -32,11 +32,11 @@ use App\Controllers\Nimda\Kontak;
                             <tbody>
                                 <tr>
                                     <td width="20%">Tanggal</td>
-                                    <td width="80%"><?= $konten->agenda_tanggal ?></td>
+                                    <td width="80%"><?= format_indo($konten->agenda_tanggal) ?></td>
                                 </tr>
                                 <tr>
                                     <td>Jam</td>
-                                    <td><?= $konten->agenda_jam ?> WIB</td>
+                                    <td><?= $konten->agenda_jam ?> WITA</td>
                                 </tr>
                                 <tr>
                                     <td>Agenda</td>

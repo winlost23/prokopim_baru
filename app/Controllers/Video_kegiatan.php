@@ -5,7 +5,9 @@ namespace App\Controllers;
 use App\Models\AgendaModel;
 use App\Models\BeritaDetailModel;
 use App\Models\BeritaModel;
+use App\Models\DownloadDetailModel;
 use App\Models\DownloadModel;
+use App\Models\GaleriKegiatanModel;
 use App\Models\KategoriModel;
 use App\Models\PengaturanModel;
 use App\Models\PenghargaanModel;
@@ -38,6 +40,8 @@ class Video_kegiatan extends BaseController
         $this->pidatoPantunModel = new PidatoPantunModel();
         $this->penghargaanModel = new PenghargaanModel();
         $this->videoKegiatanModel = new VideoKegiatanModel();
+        $this->galeriKegiatanModel = new GaleriKegiatanModel();
+        $this->downloadDetailModel = new DownloadDetailModel();
     }
 
     public function index()
@@ -65,12 +69,22 @@ class Video_kegiatan extends BaseController
             ->findAll();
 
         //side
+        $data['jml_berita'] = $this->beritadetailModel->countAll();
+		$data['jml_galeri_foto'] = $this->galeriKegiatanFotoModel->countAll();
+		$data['jml_berita_foto'] = $this->beritaFotoModel->countAll();
+		$data['jml_video_kegiatan'] = $this->videoKegiatanModel->countAll();
+        $data['jml_pidato_pantun'] = $this->pidatoPantunModel->countAll();
+		$data['jml_galeri_kegiatan'] = $this->galeriKegiatanModel->countAll();
         $data['berita_baru'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_id', 'desc')
             ->limit(5)->findAll();
         $data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
+        $data['download'] = $this->downloadDetailModel
+            ->join('download', 'download.download_id = download_detail.download_id')
+            ->orderby('download_detail.download_detail_id', 'desc')
             ->limit(5)->findAll();
 
         $data['berita_populer'] = $this->beritadetailModel
@@ -127,12 +141,22 @@ class Video_kegiatan extends BaseController
             ->findAll();
 
         //side
+        $data['jml_berita'] = $this->beritadetailModel->countAll();
+		$data['jml_galeri_foto'] = $this->galeriKegiatanFotoModel->countAll();
+		$data['jml_berita_foto'] = $this->beritaFotoModel->countAll();
+		$data['jml_video_kegiatan'] = $this->videoKegiatanModel->countAll();
+        $data['jml_pidato_pantun'] = $this->pidatoPantunModel->countAll();
+		$data['jml_galeri_kegiatan'] = $this->galeriKegiatanModel->countAll();
         $data['berita_baru'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_id', 'desc')
             ->limit(5)->findAll();
         $data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
+            ->limit(5)->findAll();
+        $data['download'] = $this->downloadDetailModel
+            ->join('download', 'download.download_id = download_detail.download_id')
+            ->orderby('download_detail.download_detail_id', 'desc')
             ->limit(5)->findAll();
 
         $data['berita_populer'] = $this->beritadetailModel

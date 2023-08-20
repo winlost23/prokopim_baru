@@ -16,6 +16,7 @@ use App\Models\KontakModel;
 use App\Models\PengaturanModel;
 use App\Models\PenghargaanModel;
 use App\Models\PengunjungModel;
+use App\Models\PidatoPantunModel;
 use App\Models\ProfilModel;
 use App\Models\SekretariatModel;
 use App\Models\SliderModel;
@@ -46,6 +47,7 @@ class Home extends BaseController
 		$this->agendaModel = new AgendaModel();
 		$this->downloadDetailModel = new DownloadDetailModel();
 		$this->kontakModel = new KontakModel();
+		$this->pidatoPantunModel = new PidatoPantunModel();
 	}
 
 	public function index()
@@ -88,6 +90,8 @@ class Home extends BaseController
 		$data['jml_galeri_foto'] = $this->galeriKegiatanFotoModel->countAll();
 		$data['jml_berita_foto'] = $this->beritaFotoModel->countAll();
 		$data['jml_video_kegiatan'] = $this->videoKegiatanModel->countAll();
+		$data['jml_pidato_pantun'] = $this->pidatoPantunModel->countAll();
+		$data['jml_galeri_kegiatan'] = $this->galeriKegiatanModel->countAll();
 		$data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
             ->limit(5)->findAll();
@@ -195,6 +199,12 @@ class Home extends BaseController
 			->findAll();
 
 		//side
+		$data['jml_berita'] = $this->beritadetailModel->countAll();
+		$data['jml_galeri_foto'] = $this->galeriKegiatanFotoModel->countAll();
+		$data['jml_berita_foto'] = $this->beritaFotoModel->countAll();
+		$data['jml_video_kegiatan'] = $this->videoKegiatanModel->countAll();
+		$data['jml_pidato_pantun'] = $this->pidatoPantunModel->countAll();
+		$data['jml_galeri_kegiatan'] = $this->galeriKegiatanModel->countAll();
 		$data['berita_baru'] = $this->beritadetailModel
 			->join('berita', 'berita.berita_id = berita_detail.berita_id')
 			->orderby('berita_detail.berita_detail_id', 'desc')

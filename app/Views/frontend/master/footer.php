@@ -16,11 +16,18 @@
                     <div class="widget social-widget">
                         <h1>Media Sosial</h1>
                         <ul class="social-icons">
-                            <li><a href="<?= $pengaturan->pengaturan_facebook ?>" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="<?= $pengaturan->pengaturan_email ?>" class="google"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="<?= $pengaturan->pengaturan_twitter ?>" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="<?= $pengaturan->pengaturan_instagram ?>" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                            <?php if($pengaturan->pengaturan_facebook != ''){ ?>
+                                <li><a href="<?= $pengaturan->pengaturan_facebook ?>" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <?php } ?>
+                            <?php if($pengaturan->pengaturan_twitter != ''){ ?>
+                                <li><a href="<?= $pengaturan->pengaturan_twitter ?>" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <?php } ?>
+                            <?php if($pengaturan->pengaturan_youtube != ''){ ?>
+                                <li><a href="<?= $pengaturan->pengaturan_youtube ?>" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            <?php } ?>
+                            <?php if($pengaturan->pengaturan_instagram != ''){ ?>
+                                <li><a href="<?= $pengaturan->pengaturan_instagram ?>" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <?php } ?>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +37,7 @@
                         <ul class="category-list">
                             <?php foreach ($sekretariat as $d) : ?>
                                 <li>
-                                    <a href="<?= base_url('profil/index/' . $d->sekretariat_slug) ?>"><?= $d->sekretariat_judul ?></a>
+                                    <a href="<?= base_url('sekretariat/index/' . $d->sekretariat_slug) ?>"><?= $d->sekretariat_judul ?></a>
                                 </li>
                             <?php endforeach; ?>
                         </ul>
@@ -41,19 +48,19 @@
                         <h1>Informasi</h1>
                         <ul class="category-list">
                             <li>
-                                <a href="<?= base_url('berita_foto') ?>">Berita Foto <span>12</span></a>
+                                <a href="<?= base_url('berita_foto') ?>">Berita Foto <span><?= $jml_berita_foto ?></span></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('video_kegiatan') ?>">Video Kegiatan <span>26</span></a>
+                                <a href="<?= base_url('video_kegiatan') ?>">Video Kegiatan <span><?= $jml_video_kegiatan ?></span></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('pantun_pidato') ?>">Pantun Pidato <span>55</span></a>
+                                <a href="<?= base_url('pantun_pidato') ?>">Pantun Pidato <span><?= $jml_pidato_pantun ?></span></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('galeri_kegiatan') ?>">Galeri Kegiatan <span>37</span></a>
+                                <a href="<?= base_url('galeri_kegiatan') ?>">Galeri Kegiatan <span><?= $jml_galeri_kegiatan ?></span></a>
                             </li>
                             <li>
-                                <a href="<?= base_url('statstik_pantun_pidato') ?>">Statistik Pantun Pidato <span>62</span></a>
+                                <a href="<?= base_url('statstik_pantun_pidato') ?>">Statistik Pantun Pidato</a>
                             </li>
                         </ul>
                     </div>

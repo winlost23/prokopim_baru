@@ -46,7 +46,11 @@
                                         <td><?= $nomor++ ?></td>
                                         <td><?= $d->download_detail_judul ?></td>
                                         <td><?= $d->download_detail_ukuran ?> Kb</td>
-                                        <td><?= $d->created_at ?></td>
+                                        <?php
+                                        $date = strtotime($d->created_at);
+                                        $newDate = date('d M Y', $date);
+                                        ?>
+                                        <td><?= $newDate ?></td>
                                         <td>
                                             <a href="<?= base_url('download/get_download/' . $d->download_detail_id) ?>" class="btn btn-danger btn-sm"><i class="fa fa-download" aria-hidden="true"></i></a>
 

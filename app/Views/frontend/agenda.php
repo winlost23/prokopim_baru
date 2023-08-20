@@ -40,7 +40,11 @@
                                     <tr>
                                         <td><?= $nomor++ ?></td>
                                         <td><?= $d->agenda_judul ?></td>
-                                        <td><?= $d->agenda_tanggal ?></td>
+                                        <?php
+                                        $date = strtotime($d->agenda_tanggal);
+                                        $newDate = date('d M Y', $date);
+                                        ?>
+                                        <td><?= $newDate ?></td>
                                         <td>
                                             <a href="<?= base_url('agenda/detail/' . $d->agenda_slug) ?>" class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> Detail</a>
                                         </td>

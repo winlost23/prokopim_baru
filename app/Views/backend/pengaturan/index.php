@@ -197,6 +197,16 @@
                             </div>
                         </div>
 
+                        <div class="form-group row">
+                            <label for="nama" class="col-sm-3 col-form-label">Youtube</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control <?= ($validation->hasError('pengaturan_youtube')) ? 'is-invalid' : '' ?>" id="pengaturan_youtube" name="pengaturan_youtube" autofocus value="<?= (old('pengaturan_youtube')) ? old('pengaturan_youtube') : $pengaturan->pengaturan_youtube ?>">
+                                <div class="invalid-feedback">
+                                    <?= $validation->getError('pengaturan_youtube'); ?>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

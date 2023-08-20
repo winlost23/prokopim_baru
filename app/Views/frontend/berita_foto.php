@@ -28,7 +28,7 @@
                                     <img src="<?= base_url('img/berita/' . $d->berita_foto_gambar) ?>" alt="">
                                 </div>
                                 <div class="post-title">
-                                    <h2><a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>l"><?= $d->berita_foto_slug ?></a></h2>
+                                    <h2><a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>"><?= $d->berita_foto_slug ?></a></h2>
                                     <ul class="post-tags">
                                         <li><i class="fa fa-clock-o"></i><?= $d->created_at ?></li>
                                     </ul>

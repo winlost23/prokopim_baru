@@ -373,7 +373,7 @@
                                     <li>
                                         <div class="events-date relative-position text-center rounded">
                                             <?php
-                                            $date = strtotime($d->created_at);
+                                            $date = strtotime($d->agenda_tanggal);
                                             $newDate = date('d', $date);
                                             $newDateM = date('M Y', $date);
                                             ?>
@@ -385,6 +385,7 @@
                                             <h2><a href="<?= base_url('agenda/detail/' . $d->agenda_slug) ?>"><?= $d->agenda_judul ?></a></h2>
                                             <ul class="post-tags">
                                                 <li><i class="fa fa-clock-o"></i><?= $d->agenda_jam ?></li>
+                                                <br>
                                                 <li><i class="fa fa-map-marker"></i><?= $d->agenda_lokasi ?></li>
                                             </ul>
                                         </div>

@@ -28,16 +28,6 @@
                             <?= $konten->sekretariat_isi ?>
                         </div>
 
-                        <div class="share-post-box">
-                            <ul class="share-box">
-                                <li><i class="fa fa-share-alt"></i><span>Share Post</span></li>
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i>Share on Facebook</a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i>Share on Twitter</a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i><span></span></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i><span></span></a></li>
-                            </ul>
-                        </div>
-
                     </div>
                     <!-- End single-post box -->
 

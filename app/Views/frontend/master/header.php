@@ -125,7 +125,7 @@
                         <li class="drop"><a class="food" href="#">Download</a>
                             <ul class="dropdown food-dropdown">
                                 <?php
-                                foreach ($download as $d) :
+                                foreach ($download_menu as $d) :
                                 ?>
                                     <li><a href="<?= base_url('download/index/' . $d->download_slug) ?>"><?= $d->download_judul ?></a></li>
                                 <?php

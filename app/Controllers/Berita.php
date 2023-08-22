@@ -67,7 +67,7 @@ class Berita extends BaseController
         $data['kategori'] = $this->kategoriModel
             ->orderby('kategori_id', 'asc')
             ->findAll();
-        $data['download'] = $this->downloadModel
+        $data['download_menu'] = $this->downloadModel
             ->orderby('download_id', 'asc')
             ->findAll();
 
@@ -143,7 +143,7 @@ class Berita extends BaseController
         $data['kategori'] = $this->kategoriModel
             ->orderby('kategori_id', 'asc')
             ->findAll();
-        $data['download'] = $this->downloadModel
+        $data['download_menu'] = $this->downloadModel
             ->orderby('download_id', 'asc')
             ->findAll();
 

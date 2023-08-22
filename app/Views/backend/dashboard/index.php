@@ -53,7 +53,7 @@ $bulans = array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
         },
         colors: ["#2c77f4", "#1ecab8"],
         series: [{
-            name: 'User',
+            name: 'Agenda',
             data: [
                 <?php
                 foreach ($pengunjung as $show) {

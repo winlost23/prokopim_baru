@@ -71,7 +71,7 @@ class Home extends BaseController
 		$data['kategori'] = $this->kategoriModel
 			->orderby('kategori_id', 'asc')
 			->findAll();
-		$data['download'] = $this->downloadModel
+		$data['download_menu'] = $this->downloadModel
 			->orderby('download_id', 'asc')
 			->findAll();
 
@@ -121,7 +121,7 @@ class Home extends BaseController
 		$data['penghargaan'] = $this->penghargaanModel
 			->join('kategori', 'kategori.kategori_id = penghargaan.kategori_id')
 			->orderby('penghargaan.penghargaan_id', 'desc')
-			->limit(6)->findAll();
+			->limit(5)->findAll();
 		$data['galeri_kegiatan'] = $this->galeriKegiatanModel
 			->orderby('galeri_kegiatan_id', 'desc')
 			->limit(4)->findAll();

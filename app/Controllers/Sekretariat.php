@@ -84,7 +84,7 @@ class Sekretariat extends BaseController
         $data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
             ->limit(5)->findAll();
-        $data['download'] = $this->downloadDetailModel
+        $data['download_menu'] = $this->downloadDetailModel
             ->join('download', 'download.download_id = download_detail.download_id')
             ->orderby('download_detail.download_detail_id', 'desc')
             ->limit(5)->findAll();

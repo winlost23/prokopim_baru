@@ -66,7 +66,7 @@ class Profil extends BaseController
         $data['kategori'] = $this->kategoriModel
             ->orderby('kategori_id', 'asc')
             ->findAll();
-        $data['download'] = $this->downloadModel
+        $data['download_menu'] = $this->downloadModel
             ->orderby('download_id', 'asc')
             ->findAll();
 
@@ -75,7 +75,7 @@ class Profil extends BaseController
 		$data['jml_galeri_foto'] = $this->galeriKegiatanFotoModel->countAll();
 		$data['jml_berita_foto'] = $this->beritaFotoModel->countAll();
 		$data['jml_video_kegiatan'] = $this->videoKegiatanModel->countAll();
-        $data['jml_pidato_pantun'] = $this->pidatoPantunModel->countAll();
+        $data['jml_pidato_pantun'] = $this->pidatopantunModel->countAll();
 		$data['jml_galeri_kegiatan'] = $this->galeriKegiatanModel->countAll();
         $data['berita_baru'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')

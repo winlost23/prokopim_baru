@@ -50,7 +50,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= base_url('home') ?>"><img src="<?= base_url('img/' . $pengaturan->pengaturan_logo_header) ?>" alt="" width="30%"></a>
+                    <a class="navbar-brand" href="<?= base_url('home') ?>"><img src="<?= base_url('img/' . $pengaturan->pengaturan_logo_header) ?>" alt="" width="348"></a>
+                </div>
+
+                <div class="advertisement">
+                    <div class="desktop-advert">
+                        <span>&nbsp;</span>
+                        <img src="<?= base_url('img/' . $pengaturan->pengaturan_banner) ?>" alt="">
+                    </div>
                 </div>
 
             </div>

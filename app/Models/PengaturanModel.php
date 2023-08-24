@@ -14,6 +14,7 @@ class PengaturanModel extends Model
 
     protected $allowedFields = [
         'pengaturan_logo_header',
+        'pengaturan_banner',
         'pengaturan_favicon',
         'pengaturan_alamat',
         'pengaturan_telp',

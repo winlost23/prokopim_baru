@@ -36,6 +36,21 @@
             imgPreview.src = e.target.result;
         }
     }
+
+    function previewImgBanner() {
+        const sampul = document.querySelector('#pengaturan_banner');
+        const sampulLabel = document.querySelector('.custom-file-label4');
+        const imgPreview = document.querySelector('.img-preview4');
+
+        sampulLabel.textContent = sampul.files[0].name;
+
+        const fileSampul = new FileReader();
+        fileSampul.readAsDataURL(sampul.files[0]);
+
+        fileSampul.onload = function(e) {
+            imgPreview.src = e.target.result;
+        }
+    }
 </script>
 <?= $this->endSection() ?>
 
@@ -76,6 +91,7 @@
                             <input type="hidden" name="pengaturan_logo_header_lama" value="<?= $pengaturan->pengaturan_logo_header ?>">
 
                             <input type="hidden" name="pengaturan_favicon_lama" value="<?= $pengaturan->pengaturan_favicon ?>">
+                            <input type="hidden" name="pengaturan_banner_lama" value="<?= $pengaturan->pengaturan_banner ?>">
 
                             <div class=" form-group row">
                                 <label for="nama" class="col-sm-3 col-form-label">Logo Header</label>
@@ -107,6 +123,23 @@
 
             </div>
             <!--end card-->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="mt-0 header-title">Banner</h4>
+                    <p class="text-muted mb-3">Silahkan ubah form dibawah ini...</p>
+                    <div class=" form-group row">
+                        <label for="nama" class="col-sm-3 col-form-label">Banner (728px x 90px)</label>
+                        <div class="col-sm-9">
+                            <input type="file" class="form-control <?= ($validation->hasError('pengaturan_banner')) ? 'is-invalid' : '' ?>" id="pengaturan_banner" name="pengaturan_banner" onchange="previewImgBanner()">
+                            <div class="invalid-feedback">
+                                <?= $validation->getError('pengaturan_banner'); ?>
+                            </div>
+                            <label class="custom-file-label4" for="pengaturan_banner">Pilih Gambar</label>
+                            <img src="<?= base_url() ?>/img/<?= $pengaturan->pengaturan_banner; ?>" class="img-thumbnail img-preview4" style="width: 500px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="card">
                 <div class="card-body">

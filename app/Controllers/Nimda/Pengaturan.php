@@ -56,6 +56,14 @@ class Pengaturan extends BaseController
                     'mime_in' => 'Yang anda pilih bukan gambar'
                 ]
             ],
+            'pengaturan_banner' => [
+                'rules' => 'max_size[pengaturan_banner,1024]|is_image[pengaturan_banner]|mime_in[pengaturan_banner,image/jpg,image/jpeg,image/png]',
+                'errors' => [
+                    'max_size' => 'Ukuran gambar tidak boleh lebih dari 1M',
+                    'is_image' => 'Yang anda pilih bukan gambar',
+                    'mime_in' => 'Yang anda pilih bukan gambar'
+                ]
+            ],
             'pengaturan_telp' => [
                 'rules' => 'required',
                 'errors' => [
@@ -97,7 +105,7 @@ class Pengaturan extends BaseController
             //pindahkan gambar
             $fileSampulHeader->move('img/', $namaSampulHeader);
             //hapus file gambar lama
-            //unlink('img/' . $this->request->getPost('pengaturan_logo_header_lama'));
+            unlink('img/' . $this->request->getPost('pengaturan_logo_header_lama'));
         }
         //end Logo Header
 
@@ -112,9 +120,23 @@ class Pengaturan extends BaseController
             //pindahkan gambar
             $fileSampulFavicon->move('img/', $namaSampulFavicon);
             //hapus file gambar lama
-            //unlink('img/' . $this->request->getPost('pengaturan_favicon_lama'));
+            unlink('img/' . $this->request->getPost('pengaturan_favicon_lama'));
         }
         //end Favicon
+        //Banner
+        $fileSampulBanner = $this->request->getFile('pengaturan_banner');
+        //cek gambar, apakah tetap gambar lama
+        if ($fileSampulBanner->getError() == 4) {
+            $namaSampulBanner = $this->request->getPost('pengaturan_banner_lama');
+        } else {
+            $namaSampulBanner = $fileSampulBanner->getRandomName();
+            //dd($namaSampul);
+            //pindahkan gambar
+            $fileSampulBanner->move('img/', $namaSampulBanner);
+            //hapus file gambar lama
+            unlink('img/' . $this->request->getPost('pengaturan_banner_lama'));
+        }
+        //end Banner
         //dd($namaSampul);
 
         $r = $this->pengaturanModel->save([
@@ -131,6 +153,7 @@ class Pengaturan extends BaseController
             'pengaturan_footer' => $this->request->getPost('pengaturan_footer'),
             'pengaturan_logo_header' => $namaSampulHeader,
             'pengaturan_favicon' => $namaSampulFavicon,
+            'pengaturan_banner' => $namaSampulBanner,
         ]);
 
         if ($r) {

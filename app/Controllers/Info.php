@@ -48,12 +48,12 @@ class Info extends BaseController
             ->join('kategori', 'info.kategori_id=kategori.kategori_id')
             ->orderby('info_id', 'desc')
             ->limit(5)
-            ->findAll();
+            ->find();
         $data['beritaslide'] = $this->beritaModel
             ->join('kategori', 'berita.kategori_id=kategori.kategori_id')
             ->orderby('berita_id', 'desc')
             ->limit(5)
-            ->findAll();
+            ->find();
 
         //cek id info
         $idinfo = $this->ketegoriModel
@@ -107,12 +107,12 @@ class Info extends BaseController
             ->join('kategori', 'info.kategori_id=kategori.kategori_id')
             ->orderby('info_id', 'desc')
             ->limit(5)
-            ->findAll();
+            ->find();
         $data['beritaslide'] = $this->beritaModel
             ->join('kategori', 'berita.kategori_id=kategori.kategori_id')
             ->orderby('berita_id', 'desc')
             ->limit(5)
-            ->findAll();
+            ->find();
 
 
         $data['dinfo'] = $this->ketegoriModel

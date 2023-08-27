@@ -66,7 +66,7 @@ class Sekretariat extends BaseController
         $data['kategori'] = $this->kategoriModel
             ->orderby('kategori_id', 'asc')
             ->findAll();
-        $data['download'] = $this->downloadModel
+        $data['download_menu'] = $this->downloadModel
             ->orderby('download_id', 'asc')
             ->findAll();
 
@@ -80,19 +80,22 @@ class Sekretariat extends BaseController
         $data['berita_baru'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
         $data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
-            ->limit(5)->findAll();
-        $data['download_menu'] = $this->downloadDetailModel
+            ->limit(5)->find();
+        $data['download'] = $this->downloadDetailModel
             ->join('download', 'download.download_id = download_detail.download_id')
             ->orderby('download_detail.download_detail_id', 'desc')
-            ->limit(5)->findAll();
-
+            ->limit(5)->find();
+        // $data['pantun_baru'] = $this->pidatopantunModel
+        //     ->join('berita', 'berita.berita_id = berita_detail.berita_id')
+        //     ->orderby('berita_detail.berita_detail_id', 'desc')
+        //     ->limit(5)->findAll();
         $data['berita_populer'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_dibaca', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
         //Konten
         $data['konten'] = $this->sekretariatModel

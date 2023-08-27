@@ -1,0 +1,210 @@
+INFO - 2023-08-27 22:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 22:56:39 --> Undefined property: stdClass::$download_detail_id
+in APPPATH\Views\frontend\master\side.php on line 104.
+ 1 APPPATH\Views\frontend\master\side.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$download_detail_id', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\side.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\side.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/side', null, true)
+ 5 APPPATH\Views\frontend\sekretariat.php(41): CodeIgniter\View\View->include('frontend/master/side')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 9 APPPATH\Controllers\Sekretariat.php(116): view('frontend/sekretariat', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 22:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 22:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 22:58:21 --> Undefined property: stdClass::$download_detail_id
+in APPPATH\Views\frontend\master\side.php on line 104.
+ 1 APPPATH\Views\frontend\master\side.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$download_detail_id', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\side.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\side.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/side', null, true)
+ 5 APPPATH\Views\frontend\sekretariat.php(41): CodeIgniter\View\View->include('frontend/master/side')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 9 APPPATH\Controllers\Sekretariat.php(116): view('frontend/sekretariat', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-adm-kerjasama-daerah')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 22:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 22:59:09 --> Undefined property: stdClass::$download_detail_id
+in APPPATH\Views\frontend\master\side.php on line 104.
+ 1 APPPATH\Views\frontend\master\side.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$download_detail_id', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\side.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\side.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/side', null, true)
+ 5 APPPATH\Views\frontend\sekretariat.php(41): CodeIgniter\View\View->include('frontend/master/side')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\sekretariat.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+ 9 APPPATH\Controllers\Sekretariat.php(116): view('frontend/sekretariat', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-adm-kerjasama-daerah')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:00:26 --> Undefined variable: download_menu
+in APPPATH\Views\frontend\master\header.php on line 135.
+ 1 APPPATH\Views\frontend\master\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: download_menu', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/header', null, true)
+ 5 APPPATH\Views\frontend\master\index.php(75): CodeIgniter\View\View->include('frontend/master/header')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('frontend/master/index', [], true)
+ 9 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+10 APPPATH\Controllers\Sekretariat.php(116): view('frontend/sekretariat', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-adm-kerjasama-daerah')
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:00:34 --> Undefined variable: download_menu
+in APPPATH\Views\frontend\master\header.php on line 135.
+ 1 APPPATH\Views\frontend\master\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: download_menu', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/header', null, true)
+ 5 APPPATH\Views\frontend\master\index.php(75): CodeIgniter\View\View->include('frontend/master/header')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('frontend/master/index', [], true)
+ 9 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+10 APPPATH\Controllers\Sekretariat.php(116): view('frontend/sekretariat', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:00:42 --> Undefined variable: download_menu
+in APPPATH\Views\frontend\master\header.php on line 135.
+ 1 APPPATH\Views\frontend\master\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: download_menu', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/header', null, true)
+ 5 APPPATH\Views\frontend\master\index.php(75): CodeIgniter\View\View->include('frontend/master/header')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('frontend/master/index', [], true)
+ 9 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+10 APPPATH\Controllers\Sekretariat.php(116): view('frontend/sekretariat', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:01:32 --> Undefined property: App\Controllers\Sekretariat::$pidatopantunModel
+in APPPATH\Controllers\Sekretariat.php on line 78.
+ 1 APPPATH\Controllers\Sekretariat.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Sekretariat::$pidatopantunModel', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Sekretariat.php', 78, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:02:49 --> Undefined property: App\Controllers\Sekretariat::$pidatopantunModel
+in APPPATH\Controllers\Sekretariat.php on line 78.
+ 1 APPPATH\Controllers\Sekretariat.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Sekretariat::$pidatopantunModel', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Sekretariat.php', 78, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:03:13 --> Undefined variable: download_menu
+in APPPATH\Views\frontend\master\header.php on line 135.
+ 1 APPPATH\Views\frontend\master\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: download_menu', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/header', null, true)
+ 5 APPPATH\Views\frontend\master\index.php(75): CodeIgniter\View\View->include('frontend/master/header')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('frontend/master/index', [], true)
+ 9 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+10 APPPATH\Controllers\Sekretariat.php(119): view('frontend/sekretariat', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:03:19 --> Undefined variable: download_menu
+in APPPATH\Views\frontend\master\header.php on line 135.
+ 1 APPPATH\Views\frontend\master\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: download_menu', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('frontend/master/header', null, true)
+ 5 APPPATH\Views\frontend\master\index.php(75): CodeIgniter\View\View->include('frontend/master/header')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\prokopim_baru\\app\\Views\\frontend\\master\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('frontend/master/index', [], true)
+ 9 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('frontend/sekretariat', [], true)
+10 APPPATH\Controllers\Sekretariat.php(119): view('frontend/sekretariat', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Sekretariat->index('bagian-hukum')
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekretariat))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:05:51 --> Undefined property: App\Controllers\Video_kegiatan::$galeriKegiatanFotoModel
+in APPPATH\Controllers\Video_kegiatan.php on line 73.
+ 1 APPPATH\Controllers\Video_kegiatan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Video_kegiatan::$galeriKegiatanFotoModel', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Video_kegiatan.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Video_kegiatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Video_kegiatan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 23:06:52 --> Undefined property: App\Controllers\Video_kegiatan::$beritaFotoModel
+in APPPATH\Controllers\Video_kegiatan.php on line 76.
+ 1 APPPATH\Controllers\Video_kegiatan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Video_kegiatan::$beritaFotoModel', 'C:\\xampp\\htdocs\\prokopim_baru\\app\\Controllers\\Video_kegiatan.php', 76, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Video_kegiatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Video_kegiatan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\prokopim_baru\\public\\index.php')
+INFO - 2023-08-27 23:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 23:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

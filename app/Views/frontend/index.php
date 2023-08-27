@@ -98,7 +98,7 @@
                         <div class="title-section">
                             <h1><span>Berita</span></h1>
                         </div>
-                        <?php foreach ($berita_atas as $d) : ?>
+                        <?php foreach ($berita as $d) : ?>
                             <div class="news-post article-post">
                                 <div class="row">
                                     <div class="col-sm-5">

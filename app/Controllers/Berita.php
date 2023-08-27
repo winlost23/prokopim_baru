@@ -81,19 +81,19 @@ class Berita extends BaseController
         $data['berita_baru'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
         $data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
         $data['download'] = $this->downloadDetailModel
             ->join('download', 'download.download_id = download_detail.download_id')
             ->orderby('download_detail.download_detail_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
         $data['berita_populer'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_dibaca', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
         //Content
         $data['slug'] = $this->beritaModel
@@ -157,19 +157,19 @@ class Berita extends BaseController
         $data['berita_baru'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
         $data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
         $data['download'] = $this->downloadDetailModel
             ->join('download', 'download.download_id = download_detail.download_id')
             ->orderby('download_detail.download_detail_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
         $data['berita_populer'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_dibaca', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
 
         $data['slug'] = $this->beritaModel

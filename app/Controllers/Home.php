@@ -83,7 +83,7 @@ class Home extends BaseController
 		$data['berita_atas'] = $this->beritadetailModel
 			->join('berita', 'berita.berita_id = berita_detail.berita_id')
 			->orderby('berita_detail.berita_detail_id', 'desc')
-			->limit(4)->findAll();
+			->limit(4)->find();
 
 		//side
 		$data['jml_berita'] = $this->beritadetailModel->countAll();
@@ -94,37 +94,41 @@ class Home extends BaseController
 		$data['jml_galeri_kegiatan'] = $this->galeriKegiatanModel->countAll();
 		$data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 		$data['berita_populer'] = $this->beritadetailModel
             ->join('berita', 'berita.berita_id = berita_detail.berita_id')
             ->orderby('berita_detail.berita_detail_dibaca', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 		$data['download'] = $this->downloadDetailModel
             ->join('download', 'download.download_id = download_detail.download_id')
             ->orderby('download_detail.download_detail_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 		$data['berita_foto_slide'] = $this->beritaFotoModel
             ->orderby('berita_foto_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 		$data['kontak'] = $this->kontakModel
             ->where('kontak_show', 1)
             ->orderby('kontak_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
 		//konten
+		$data['berita'] = $this->beritadetailModel
+			->join('berita', 'berita.berita_id = berita_detail.berita_id')
+			->orderby('berita_detail.berita_detail_id', 'desc')
+			->limit(4)->find();
 		$data['berita_foto'] = $this->beritaFotoModel
 			->orderby('berita_foto_id', 'desc')
-			->limit(4)->findAll();
+			->limit(4)->find();
 		$data['video_kegiatan'] = $this->videoKegiatanModel
 			->orderby('video_kegiatan_id', 'desc')
-			->limit(3)->findAll();
+			->limit(3)->find();
 		$data['penghargaan'] = $this->penghargaanModel
 			->join('kategori', 'kategori.kategori_id = penghargaan.kategori_id')
 			->orderby('penghargaan.penghargaan_id', 'desc')
-			->limit(5)->findAll();
+			->limit(5)->find();
 		$data['galeri_kegiatan'] = $this->galeriKegiatanModel
 			->orderby('galeri_kegiatan_id', 'desc')
-			->limit(4)->findAll();
+			->limit(4)->find();
 
 		// $data['info'] = $this->ketegoriModel
 		// 	->where('kategori_jenis', 'info')
@@ -208,15 +212,15 @@ class Home extends BaseController
 		$data['berita_baru'] = $this->beritadetailModel
 			->join('berita', 'berita.berita_id = berita_detail.berita_id')
 			->orderby('berita_detail.berita_detail_id', 'desc')
-			->limit(5)->findAll();
+			->limit(5)->find();
 		$data['agenda_baru'] = $this->agendaModel
             ->orderby('agenda_id', 'desc')
-            ->limit(5)->findAll();
+            ->limit(5)->find();
 
 		$data['berita_populer'] = $this->beritadetailModel
 			->join('berita', 'berita.berita_id = berita_detail.berita_id')
 			->orderby('berita_detail.berita_detail_dibaca', 'desc')
-			->limit(5)->findAll();
+			->limit(5)->find();
 
 		//Content
 		$berita_detail_judul = $this->request->getPost('berita_detail_judul');

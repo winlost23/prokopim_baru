@@ -86,7 +86,7 @@
         <div class="footer-last-line">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Copyright &copy; <?= date('Y') ?> Prokopim Pemerintah Kabupaten Buton Tengah</p>
+                    <p><?= $pengaturan->pengaturan_footer ?></p>
                 </div>
             </div>
         </div>

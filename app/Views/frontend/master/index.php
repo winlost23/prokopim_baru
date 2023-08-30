@@ -63,6 +63,17 @@
     .rounded {
         border-radius:.25rem!important
     }
+
+    footer .categories-widget ul.category-list li:nth-child(2n) {
+    padding-left: 0px;
+    }
+    
+    footer .categories-widget ul.category-list li {
+        list-style: none;
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
   </style>
 </head>
 

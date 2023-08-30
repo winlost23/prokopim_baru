@@ -150,7 +150,7 @@
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="post-content">
-                                            <h2><a href="<?= base_url('berita_foto/' . $d->berita_foto_slug) ?>"><?= $d->berita_foto_judul ?></a></h2>
+                                            <h2><a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>"><?= $d->berita_foto_judul ?></a></h2>
                                             <ul class="post-tags">
                                                 <?php
                                                 $date = strtotime($d->created_at);
@@ -165,7 +165,7 @@
                                             $desc = substr($kalimat, 0, strrpos($desc, " "));
                                             ?>
                                             <p><?= $desc ?></p>
-                                            <a href="<?= base_url('berita_foto/' . $d->berita_foto_slug) ?>" class="read-more-button"><i class="fa fa-arrow-circle-right"></i>Selengkapnya</a>
+                                            <a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>" class="read-more-button"><i class="fa fa-arrow-circle-right"></i>Selengkapnya</a>
                                         </div>
                                     </div>
                                 </div>

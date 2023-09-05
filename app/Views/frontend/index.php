@@ -419,7 +419,7 @@
                                                 <img src="<?= base_url('img/berita/' . $d->berita_foto_gambar) ?>" alt="">
                                                 <div class="hover-box">
                                                     <div class="inner-hover">
-                                                        <h2><a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>l"><?= $d->berita_foto_slug ?></a></h2>
+                                                        <h2><a href="<?= base_url('berita_foto/detail/' . $d->berita_foto_slug) ?>"><?= $d->berita_foto_judul ?></a></h2>
                                                         <ul class="post-tags">
                                                             <li><i class="fa fa-clock-o"></i><?= $d->created_at ?></li>
                                                         </ul>
